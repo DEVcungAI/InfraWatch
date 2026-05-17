@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\InfraWatch\\InfraWatch\\InfraWatch.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\InfraWatch\\InfraWatch\\InfraWatch.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
         "projectName": "InfraWatch",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\InfraWatch\\InfraWatch\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
