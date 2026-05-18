@@ -27,7 +27,7 @@ The project simulates a real-world IT operations environment where servers, netw
 
 ---
 
-## Project Overview
+## Project Overview:
 
 InfraWatch was built as a hands-on project to strengthen knowledge in:
 
@@ -45,9 +45,9 @@ The main goal of this project is to demonstrate how an IT support or infrastruct
 
 ---
 
-## Key Features
+## Key Features:
 
-### Asset Management
+### Asset Management:
 
 - Add new IT assets
 - View all registered assets
@@ -70,7 +70,7 @@ Example asset types:
 
 ---
 
-### Network Health Monitoring
+### Network Health Monitoring:
 
 - Perform ping-based health checks
 - Determine whether an asset is `UP`, `DOWN`, or `UNKNOWN`
@@ -79,7 +79,7 @@ Example asset types:
 
 ---
 
-### Background Monitoring Worker
+### Background Monitoring Worker:
 
 - Runs periodic health checks automatically
 - Uses ASP.NET Core BackgroundService
@@ -88,7 +88,7 @@ Example asset types:
 
 ---
 
-### Logging and Audit Trail
+### Logging and Audit Trail:
 
 - Store asset monitoring logs
 - Track status changes over time
@@ -96,7 +96,7 @@ Example asset types:
 
 ---
 
-### Alert Logic
+### Alert Logic:
 
 - Detect unavailable devices
 - Flag assets with failed health checks
@@ -104,7 +104,7 @@ Example asset types:
 
 ---
 
-### 3-Layer Architecture
+### 3-Layer Architecture:
 
 The project follows a 3-layer architecture:
 
@@ -112,3 +112,117 @@ The project follows a 3-layer architecture:
 Presentation Layer  → Controllers
 Business Layer      → Services
 Data Access Layer   → Repositories / DbContext
+```
+
+# Technology Stack:
+- C#
+- ASP.NET Core Web API
+- SQL Server 2022
+- Entity Framework Core
+- Swagger / OpenAPI
+- BackgroundService
+- Visual Studio 2022
+- Windows Server 2022
+- GitHub for Desktop
+
+
+# System Architecture:
+
+```
+Client / Swagger / Postman
+    ↓
+Controllers
+    ↓
+Services
+    ↓
+Repositories
+    ↓
+Entity Framework Core
+    ↓
+SQL Server Database
+```
+
+
+# Background monitoring flow:
+
+```
+MonitoringWorker
+    ↓
+MonitoringService
+    ↓
+Ping / Health Check
+    ↓
+Update Asset Status
+    ↓
+Save Monitoring Log
+    ↓
+SQL Server
+```
+
+
+# Folder Structure:
+
+```
+InfraWatch/
+│
+├── Controllers/
+│   ├── AssetsController.cs
+│   ├── MonitoringController.cs
+│   └── LogsController.cs
+│
+├── Models/
+│   ├── Asset.cs
+│   ├── AssetLog.cs
+│   └── Alert.cs
+│
+├── DTOs/
+│   ├── AssetCreateDto.cs
+│   ├── AssetUpdateDto.cs
+│   ├── AssetResponseDto.cs
+│   └── MonitoringResultDto.cs
+│
+├── Data/
+│   └── AppDbContext.cs
+│
+├── Repositories/
+│   ├── Interfaces/
+│   │   ├── IAssetRepository.cs
+│   │   ├── IAssetLogRepository.cs
+│   │   └── IAlertRepository.cs
+│   │
+│   └── Implementations/
+│       ├── AssetRepository.cs
+│       ├── AssetLogRepository.cs
+│       └── AlertRepository.cs
+│
+├── Services/
+│   ├── Interfaces/
+│   │   ├── IAssetService.cs
+│   │   ├── IMonitoringService.cs
+│   │   └── IAlertService.cs
+│   │
+│   └── Implementations/
+│       ├── AssetService.cs
+│       ├── MonitoringService.cs
+│       └── AlertService.cs
+│
+├── BackgroundServices/
+│   └── MonitoringWorker.cs
+│
+├── Middlewares/
+│   └── ExceptionHandlingMiddleware.cs
+│
+├── Helpers/
+│   ├── PingHelper.cs
+│   └── DateTimeHelper.cs
+│
+├── Migrations/
+│
+├── Properties/
+│   └── launchSettings.json
+│
+├── appsettings.json
+├── appsettings.Development.json
+├── Program.cs
+└── README.md
+```
