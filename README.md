@@ -43,8 +43,6 @@ InfraWatch was built as a hands-on project to strengthen knowledge in:
 
 The main goal of this project is to demonstrate how an IT support or infrastructure team can register assets, monitor device health, track device status changes, and maintain logs for troubleshooting and operational review.
 
----
-
 ## Key Features:
 
 ### Asset Management:
@@ -66,9 +64,7 @@ Example asset types:
 - NVR
 - Workstation
 - Laptop
-- POS Terminal
 
----
 
 ### Network Health Monitoring:
 
@@ -77,8 +73,6 @@ Example asset types:
 - Update last checked timestamp
 - Store monitoring results in logs
 
----
-
 ### Background Monitoring Worker:
 
 - Runs periodic health checks automatically
@@ -86,15 +80,11 @@ Example asset types:
 - Monitors registered assets at scheduled intervals
 - Updates asset status without manual API calls
 
----
-
 ### Logging and Audit Trail:
 
 - Store asset monitoring logs
 - Track status changes over time
 - Support troubleshooting and historical analysis
-
----
 
 ### Alert Logic:
 
@@ -102,7 +92,6 @@ Example asset types:
 - Flag assets with failed health checks
 - Prepare foundation for future email or dashboard alerts
 
----
 
 ### 3-Layer Architecture:
 
@@ -114,7 +103,7 @@ Business Layer      → Services
 Data Access Layer   → Repositories / DbContext
 ```
 
-# Technology Stack:
+## Technology Stack:
 - C#
 - ASP.NET Core Web API
 - SQL Server 2022
@@ -126,7 +115,7 @@ Data Access Layer   → Repositories / DbContext
 - GitHub for Desktop
 
 
-# System Architecture:
+## System Architecture:
 
 ```
 Client / Swagger / Postman
@@ -143,7 +132,7 @@ SQL Server Database
 ```
 
 
-# Background monitoring flow:
+## Background monitoring flow:
 
 ```
 MonitoringWorker
@@ -160,7 +149,7 @@ SQL Server
 ```
 
 
-# Folder Structure:
+## Folder Structure:
 
 ```
 InfraWatch/
@@ -226,3 +215,93 @@ InfraWatch/
 ├── Program.cs
 └── README.md
 ```
+
+
+## Database Design
+
+### Assets Table
+Stores registered IT assets.
+
+| Column      | Description                                |
+| ----------- | ------------------------------------------ |
+| Id          | Primary key                                |
+| Name        | Asset name                                 |
+| IPAddress   | IP address of the asset                    |
+| Type        | Asset type such as Server, Router, Printer |
+| Status      | Current status: UP, DOWN, UNKNOWN          |
+| Location    | Physical or logical location               |
+| Description | Additional notes                           |
+| LastChecked | Last monitoring timestamp                  |
+| CreatedAt   | Asset creation timestamp                   |
+| UpdatedAt   | Last update timestamp                      |
+
+
+### AssetLogs Table
+
+Stores monitoring history for each asset.
+
+| Column         | Description                 |
+| -------------- | --------------------------- |
+| Id             | Primary key                 |
+| AssetId        | Related asset ID            |
+| Status         | Monitoring result           |
+| ResponseTimeMs | Ping response time          |
+| Message        | Monitoring message or error |
+| CheckedAt      | Timestamp of health check   |
+
+
+### Alerts Table
+
+Stores system alerts when devices fail health checks.
+
+| Column     | Description                 |
+| ---------- | --------------------------- |
+| Id         | Primary key                 |
+| AssetId    | Related asset ID            |
+| AlertType  | Type of alert               |
+| Severity   | Low, Medium, High, Critical |
+| Message    | Alert description           |
+| IsResolved | Resolution status           |
+| CreatedAt  | Alert creation timestamp    |
+| ResolvedAt | Resolution timestamp        |
+
+---
+
+## Future Improvements
+
+Planned improvements include:
+
+- JWT authentication and role-based access control
+- Dashboard UI for asset status and alerts
+- Email notification for critical alerts
+- SNMP-based monitoring
+- ICMP timeout configuration per asset
+- PowerShell-based asset discovery
+- Import/export assets using CSV
+- Docker support
+- Azure deployment
+- Redis caching
+- RabbitMQ-based distributed monitoring
+- Integration with ITIL-style incident workflow
+- Knowledge base module for troubleshooting procedures
+
+## What I Learnt
+
+Through this project, I practiced and improved:
+
+- Designing RESTful APIs with ASP.NET Core
+- Connecting ASP.NET Core to SQL Server using Entity Framework Core
+- Creating database migrations
+- Applying 3-layer architecture
+- Using Dependency Injection
+- Implementing background services
+- Designing monitoring workflows
+- Handling infrastructure-related data
+- Writing maintainable and scalable backend code
+- Thinking from an IT operations and infrastructure perspective
+
+# Author
+
+**Minh-Anh** Nguyen (**ALVIN**)
+
+LinkedIn: https://www.linkedin.com/in/nminhanh1998/
