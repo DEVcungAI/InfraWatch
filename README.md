@@ -156,8 +156,9 @@ InfraWatch/
 │
 ├── Controllers/
 │   ├── AssetsController.cs
+│   ├── LogsController.cs
 │   ├── MonitoringController.cs
-│   └── LogsController.cs
+│   └── WeatherForecastController.cs
 │
 ├── Models/
 │   ├── Asset.cs
