@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Folder Include="DTO\" />
-    <Folder Include="Models\" />
+    <Folder Include="Middlewares\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
