@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\implementations\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\implementations\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\implementations\\monitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\implementations\\monitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\implementations\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\implementations\\alertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\interfaces\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\interfaces\\ialertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\services\\interfaces\\imonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\services\\interfaces\\imonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\models\\assetlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\models\\assetlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\helpers\\pinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\helpers\\pinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\helpers\\datetimehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,71 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DateTimeHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Helpers\\DateTimeHelper.cs",
-              "RelativeDocumentMoniker": "InfraWatch\\Helpers\\DateTimeHelper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Helpers\\DateTimeHelper.cs",
-              "RelativeToolTip": "InfraWatch\\Helpers\\DateTimeHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Title": "IMonitoringService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IMonitoringService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Interfaces\\IMonitoringService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IMonitoringService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Interfaces\\IMonitoringService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:37:30.403Z",
+              "WhenOpened": "2026-05-23T15:49:49.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PingHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Helpers\\PingHelper.cs",
-              "RelativeDocumentMoniker": "InfraWatch\\Helpers\\PingHelper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Helpers\\PingHelper.cs",
-              "RelativeToolTip": "InfraWatch\\Helpers\\PingHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Title": "IAssetService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IAssetService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Interfaces\\IAssetService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IAssetService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Interfaces\\IAssetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:37:01.887Z",
+              "WhenOpened": "2026-05-23T15:49:43.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Alert.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\Alert.cs",
-              "RelativeDocumentMoniker": "InfraWatch\\Models\\Alert.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\Alert.cs",
-              "RelativeToolTip": "InfraWatch\\Models\\Alert.cs",
+              "Title": "IAlertService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IAlertService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Interfaces\\IAlertService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Interfaces\\IAlertService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Interfaces\\IAlertService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:33:12.354Z",
+              "WhenOpened": "2026-05-23T15:49:37.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AssetLogs.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\AssetLogs.cs",
-              "RelativeDocumentMoniker": "InfraWatch\\Models\\AssetLogs.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\AssetLogs.cs",
-              "RelativeToolTip": "InfraWatch\\Models\\AssetLogs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Title": "AlertService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\AlertService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Implementations\\AlertService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\AlertService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Implementations\\AlertService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:32:47.838Z",
+              "WhenOpened": "2026-05-23T15:48:24.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Asset.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\Asset.cs",
-              "RelativeDocumentMoniker": "InfraWatch\\Models\\Asset.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Models\\Asset.cs",
-              "RelativeToolTip": "InfraWatch\\Models\\Asset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Title": "MonitoringService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\MonitoringService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Implementations\\MonitoringService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\MonitoringService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Implementations\\MonitoringService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:32:06.635Z",
+              "WhenOpened": "2026-05-23T15:47:53.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AssetService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\AssetService.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Services\\Implementations\\AssetService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Services\\Implementations\\AssetService.cs",
+              "RelativeToolTip": "InfraWatch\\Services\\Implementations\\AssetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:47:28.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Program.cs",
               "RelativeDocumentMoniker": "InfraWatch\\Program.cs",
