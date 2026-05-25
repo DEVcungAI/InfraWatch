@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace InfraWatch.Controllers
 {
@@ -8,7 +8,7 @@ namespace InfraWatch.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Rét", "Se lạnh", "Mát", "Lạnh", "Ôn hòa", "Ấm", "Ấm áp dễ chịu", "Nóng", "Oi bức", "Cực nóng"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
