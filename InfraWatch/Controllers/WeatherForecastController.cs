@@ -8,7 +8,8 @@ namespace InfraWatch.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Rét", "Se lạnh", "Mát", "Lạnh", "Ôn hòa", "Ấm", "Ấm áp dễ chịu", "Nóng", "Oi bức", "Cực nóng"
+            //"Rét", "Se lạnh", "Mát", "Lạnh", "Ôn hòa", "Ấm", "Ấm áp dễ chịu", "Nóng", "Oi bức", "Cực nóng"
+            "Cực nóng", "Oi bức", "Nóng", "Ấm", "Ôn hòa", "Mát", "Se lạnh", "Lạnh", "Rét", "Buốt giá"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
