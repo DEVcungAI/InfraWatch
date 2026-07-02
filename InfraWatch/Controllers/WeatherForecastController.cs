@@ -1,4 +1,43 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//using Microsoft.AspNetCore.Mvc;
+
+//namespace InfraWatch.Controllers
+//{
+//    [ApiController]
+//    [Route("[controller]")]
+//    public class WeatherForecastController : ControllerBase
+//    {
+//        private static readonly string[] Summaries = new[]
+//        {
+//            //"Rét", "Se lạnh", "Mát", "Lạnh", "Ôn hòa", "Ấm", "Ấm áp dễ chịu", "Nóng", "Oi bức", "Cực nóng"
+//            "Cực nóng", "Oi bức", "Nóng", "Ấm", "Ôn hòa", "Mát", "Se lạnh", "Lạnh", "Rét", "Buốt giá"
+//        };
+
+//        private readonly ILogger<WeatherForecastController> _logger;
+
+//        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+//        {
+//            _logger = logger;
+//        }
+
+//        [HttpGet(Name = "GetWeatherForecast")]
+//        public IEnumerable<WeatherForecast> Get()
+//        {
+//            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+//            {
+//                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+//                TemperatureC = Random.Shared.Next(-20, 55),
+//                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+//            })
+//            .ToArray();
+//        }
+//    }
+//}
+
+
+
+
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace InfraWatch.Controllers
 {
