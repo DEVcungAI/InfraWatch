@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\appsettings.json",
+              "RelativeDocumentMoniker": "InfraWatch\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\appsettings.json",
+              "RelativeToolTip": "InfraWatch\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T13:51:35.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "InfraWatch\\Controllers\\WeatherForecastController.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "InfraWatch\\WeatherForecast.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "InfraWatch\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:04:42.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T14:04:42.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Program.cs",
               "RelativeDocumentMoniker": "InfraWatch\\Program.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "InfraWatch\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T14:22:40.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T14:22:40.527Z"
             }
           ]
         }
