@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfraWatch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fe5d320234e40d3e5a39efef1f85c64dae53864")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3195551f54b2d3d1257689b9f3b8950838378004")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfraWatch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfraWatch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
