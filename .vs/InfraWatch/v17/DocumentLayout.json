@@ -1,36 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\infrawatch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\infrawatch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfraWatch",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
-              "RelativeDocumentMoniker": "InfraWatch\\InfraWatch.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\InfraWatch.csproj",
-              "RelativeToolTip": "InfraWatch\\InfraWatch.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T12:59:39.221Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
