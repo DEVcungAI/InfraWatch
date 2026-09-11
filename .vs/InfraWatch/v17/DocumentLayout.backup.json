@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|c:\\users\\administrator\\documents\\github\\infrawatch\\infrawatch\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEA31A7-FEA0-4620-A956-5B8A50C6F2F0}|InfraWatch\\InfraWatch.csproj|solutionrelative:infrawatch\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "InfraWatch\\Controllers\\AssetsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\InfraWatch\\InfraWatch\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "InfraWatch\\Controllers\\AssetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T07:03:25.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
